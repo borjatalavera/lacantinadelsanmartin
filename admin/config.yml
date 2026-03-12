@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "menu_settings"
+    label: "Gestión de la Carta"
+    delete: false
+    create: false
+    files:
+      - label: "Carta Actual"
+        name: "menu"
+        file: "menu.json"
+        fields:
+          - label: "Entradas"
+            name: "Entradas"
+            widget: "list"
+            summary: "{{fields.nombre}} - ${{fields.precio}}"
+            fields:
+              - {label: "ID (No tocar)", name: "id", widget: "hidden", default: 0}
+              - {label: "Nombre del Plato", name: "nombre", widget: "string"}
+              - {label: "Descripción", name: "descripcion", widget: "text"}
+              - {label: "Precio", name: "precio", widget: "number"}
+          
+          - label: "Platos Principales"
+            name: "Platos Principales"
+            widget: "list"
+            summary: "{{fields.nombre}} - ${{fields.precio}}"
+            fields:
+              - {label: "ID (No tocar)", name: "id", widget: "hidden", default: 0}
+              - {label: "Nombre del Plato", name: "nombre", widget: "string"}
+              - {label: "Descripción", name: "descripcion", widget: "text"}
+              - {label: "Precio", name: "precio", widget: "number"}
+
+          - label: "Postres"
+            name: "Postres"
+            widget: "list"
+            summary: "{{fields.nombre}} - ${{fields.precio}}"
+            fields:
+              - {label: "ID (No tocar)", name: "id", widget: "hidden", default: 0}
+              - {label: "Nombre del Plato", name: "nombre", widget: "string"}
+              - {label: "Descripción", name: "descripcion", widget: "text"}
+              - {label: "Precio", name: "precio", widget: "number"}
+
+          - label: "Bebidas"
+            name: "Bebidas"
+            widget: "list"
+            summary: "{{fields.nombre}} - ${{fields.precio}}"
+            fields:
+              - {label: "ID (No tocar)", name: "id", widget: "hidden", default: 0}
+              - {label: "Nombre del Plato", name: "nombre", widget: "string"}
+              - {label: "Descripción", name: "descripcion", widget: "text"}
+              - {label: "Precio", name: "precio", widget: "number"}

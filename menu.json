@@ -1,0 +1,70 @@
+{
+  "Entradas": [
+    {
+      "id": 1,
+      "nombre": "Empanadas Salteñas (3u)",
+      "descripcion": "Carne cortada a cuchillo, papa, cebolla y un toque de comino. Al horno de barro.",
+      "precio": 3200
+    },
+    {
+      "id": 2,
+      "nombre": "Provoleta Especial",
+      "descripcion": "Queso provolone fundido con tomates cherry, albahaca y aceite de oliva virgen.",
+      "precio": 4500
+    },
+    {
+      "id": 3,
+      "nombre": "Rabas a la Romana",
+      "descripcion": "Anillos de calamar crocantes acompañados de alioli casero y limón.",
+      "precio": 6800
+    }
+  ],
+  "Platos Principales": [
+    {
+      "id": 4,
+      "nombre": "Bife de Chorizo (400g)",
+      "descripcion": "Corte premium a las brasas, acompañado de papas rústicas y chimichurri de la casa.",
+      "precio": 14500
+    },
+    {
+      "id": 5,
+      "nombre": "Ravioles de Espinaca",
+      "descripcion": "Pasta casera rellena de espinaca y ricota, con salsa scarparo y parmesano rallado.",
+      "precio": 9200
+    },
+    {
+      "id": 6,
+      "nombre": "Milanesa a la Vizcaína",
+      "descripcion": "Milanesa de ternera XL con jamón, queso gratinado y salsa de pimientos rojos.",
+      "precio": 11800
+    }
+  ],
+  "Postres": [
+    {
+      "id": 7,
+      "nombre": "Flan Mixto",
+      "descripcion": "El clásico de la casa, con abundante dulce de leche y crema batida.",
+      "precio": 3500
+    },
+    {
+      "id": 8,
+      "nombre": "Panqueque con Dulce de Leche",
+      "descripcion": "Dos panqueques dorados en manteca, caramelizados y bien rellenos.",
+      "precio": 3800
+    }
+  ],
+  "Bebidas": [
+    {
+      "id": 9,
+      "nombre": "Malbec de la Casa (750cc)",
+      "descripcion": "Reserva especial de Mendoza, ideal para acompañar nuestras carnes.",
+      "precio": 8500
+    },
+    {
+      "id": 10,
+      "nombre": "Limonada con Menta y Jengibre",
+      "descripcion": "Refrescante jarra de 1 litro de elaboración natural artesanal.",
+      "precio": 2400
+    }
+  ]
+}
